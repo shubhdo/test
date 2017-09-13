@@ -1,0 +1,21 @@
+{
+  "name": "chat_module",
+  "version": "1.0.0",
+  "description": "one to one chat ",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mobiloitte",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.1.5",
+    "async-waterfall": "^0.1.5",
+    "node-gcm": "^0.14.6",
+    "socket.io": "^2.0.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2"
+  }
+}
